@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Yada.Business\Yada.Business.csproj" />
+        <ProjectReference Include="..\Yada.Data\Yada.Data.csproj" />
+        <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
+    </ItemGroup>
+
+</Project>
