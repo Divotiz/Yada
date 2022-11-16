@@ -4,7 +4,7 @@ Yet another .NET application.
 
 ## Features
 
-- Admin: Seperate area.
+- Admin: Separate area.
 - AppSettings: Environment, Version.
 - Logging: Serilog with WriteTo File.
 
@@ -17,9 +17,5 @@ Yet another .NET application.
 
 ## Frameworks
 
-- .NET 6.0, C# 10
-- Bootstrap 5.2.0
-
-## Todos
-
-- [] Admin: Use Mazer
+- .NET 7.0, C# 11
+- Bootstrap 5.2.2
