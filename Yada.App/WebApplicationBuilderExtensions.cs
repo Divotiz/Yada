@@ -1,6 +1,6 @@
-namespace Yada.App.Extensions;
+namespace Microsoft.AspNetCore.Builder;
 
-public static class SerilogExtensions
+public static class WebApplicationBuilderExtensions
 {
     public static Microsoft.Extensions.Logging.ILogger AddSerilog(this WebApplicationBuilder builder)
     {
