@@ -1,5 +1,6 @@
 namespace Yada.Admin.Controllers;
 
+//[Authorize]
 public class AppController : BaseController
 {
     private readonly AppSettings _settings;

@@ -1,7 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Yada.Core.Constants;
-
 namespace Yada.Data.Context;
 
 public partial class YadaContext : DbContext
@@ -22,9 +18,11 @@ public partial class YadaContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseSqlServer(_configuration[ConfigurationConstants.DefaultConnectionStringName]);
+            optionsBuilder.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=Yada;Trusted_Connection=True;TrustServerCertificate=True");
         }
     }
+
+    public virtual DbSet<Sample> Sample { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

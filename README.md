@@ -18,4 +18,4 @@ Yet another .NET application.
 ## Frameworks
 
 - .NET 7.0, C# 11
-- Bootstrap 5.2.2
+- Bootstrap 5.3.2

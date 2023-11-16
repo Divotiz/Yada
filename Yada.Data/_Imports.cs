@@ -2,6 +2,7 @@ global using Microsoft.EntityFrameworkCore;
 global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.DependencyInjection;
 global using Microsoft.Extensions.Logging;
+global using Yada.Core.Constants;
 global using Yada.Core.Enums;
 global using Yada.Core.Entities;
 global using Yada.Core.Interfaces.Data;
