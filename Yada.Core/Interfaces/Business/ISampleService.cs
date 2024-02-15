@@ -1,7 +1,5 @@
-using Yada.Core.Entities;
-
 namespace Yada.Core.Interfaces.Business;
 
-public partial interface ISampleService
+public partial interface ISampleService : IBaseCrudService<Sample, int>
 {
 }

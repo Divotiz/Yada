@@ -1,11 +1,8 @@
 namespace Yada.Business.Services;
 
-public partial class SampleService : ISampleService
+public partial class SampleService : BaseCrudService<Sample, int, ISampleRepository>, ISampleService
 {
-    private readonly ISampleRepository _sampleRepository;
-
-    public SampleService(ISampleRepository sampleRepository)
+    public SampleService(ISampleRepository repository) : base(repository)
     {
-        _sampleRepository = sampleRepository;
     }
 }

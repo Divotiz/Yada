@@ -1,11 +1,8 @@
 namespace Yada.Data.Repositories;
 
-public partial class SampleRepository : ISampleRepository
+public partial class SampleRepository : YadaRepository<Sample, int>, ISampleRepository
 {
-    private readonly YadaContext _context;
-
-    public SampleRepository(IConfiguration configuration, ILogger<SampleRepository> logger, YadaContext context)
+    public SampleRepository(IConfiguration configuration, ILogger<SampleRepository> logger, YadaContext context) : base(logger, context)
     {
-        _context = context;
     }
 }

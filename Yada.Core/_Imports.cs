@@ -1,2 +1,9 @@
+global using System.Linq.Expressions;
 global using Microsoft.Extensions.Logging;
+//global using Divotiz.Common.Core.Entities;
+global using Divotiz.Common.Core.Interfaces.Entities;
+global using Divotiz.Common.Core.Interfaces.Repositories;
+global using Divotiz.Common.Core.Interfaces.Services;
+global using Yada.Core.Entities;
 global using Yada.Core.Enums;
+global using Yada.Core.Interfaces.Data.Base;
