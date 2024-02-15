@@ -9,11 +9,11 @@
     <ItemGroup>
         <ProjectReference Include="..\Yada.Business\Yada.Business.csproj" />
         <ProjectReference Include="..\Yada.Data\Yada.Data.csproj" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
     </ItemGroup>
 
 </Project>
